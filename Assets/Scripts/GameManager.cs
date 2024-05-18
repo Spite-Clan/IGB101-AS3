@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour{
     public GameObject player;
     //Pickup and Completion
     public int currentPickups = 0;
-    public int maxPickups = 9;
+    public int maxPickups = 8;
     public bool levelComplete = false;
 
     //UI components
