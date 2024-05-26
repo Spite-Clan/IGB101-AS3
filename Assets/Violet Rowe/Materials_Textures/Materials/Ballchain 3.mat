@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pulsating Glow
-  m_Shader: {fileID: -6465566751694194690, guid: b07b1cccae3ae5249b666dab1a31a0ff, type: 3}
+  m_Name: Ballchain 3
+  m_Shader: {fileID: -6465566751694194690, guid: 04679d47e95201d42a8d2eb6b92dd9ad, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Base_Texture:
-        m_Texture: {fileID: 2800000, guid: a382ebc962d4eda4a9f595dd4af5f26a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -74,12 +74,12 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Glow_Power: 0.5
-    - _Glow_Speed: 0.5
-    - _Glow_Strength: 0.5
+    - _Intersection_Power: 4.8
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _Occlusion_Strength: 1
+    - _Offset: 1.5707964
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -87,12 +87,12 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Base_color: {r: 1, g: 1, b: 1, a: 0}
+    - _Base_Color: {r: 1, g: 0.5242587, b: 0.9673353, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Glow_Color: {r: 0, g: 3.088727, b: 4, a: 0}
+    - _Second_Color: {r: 0.3377282, g: 0.8081003, b: 0.9528302, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &8342329190549135499
+--- !u!114 &4257492468393456687
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

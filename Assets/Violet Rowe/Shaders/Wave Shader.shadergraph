@@ -44,6 +44,12 @@
         },
         {
             "m_Id": "804df07f474a4d1cb5e72db683303bff"
+        },
+        {
+            "m_Id": "fed851639e684764a261bf7bc86de58d"
+        },
+        {
+            "m_Id": "6b9ae54c8ebb42f49ba355da0c5f9101"
         }
     ],
     "m_Keywords": [],
@@ -1636,10 +1642,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 449.71429443359377,
-            "y": 40.000003814697269,
-            "width": 131.4285888671875,
-            "height": 119.4285888671875
+            "x": -73.7142562866211,
+            "y": 54.85715866088867,
+            "width": 131.42860412597657,
+            "height": 119.42854309082031
         }
     },
     "m_Slots": [
@@ -4331,8 +4337,8 @@
     "m_ObjectId": "58d0fba5e3c34c25869dcdb6fc10ab98",
     "m_Title": "Color + Texture",
     "m_Position": {
-        "x": 20.57139778137207,
-        "y": -34.857147216796878
+        "x": -505.7142639160156,
+        "y": -20.00000762939453
     }
 }
 
@@ -4811,6 +4817,34 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "6b9ae54c8ebb42f49ba355da0c5f9101",
+    "m_Guid": {
+        "m_GuidSerialized": "56baf723-7848-4622-916b-3ebef7be23e4"
+    },
+    "m_Name": "Occlusion Strength",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Occlusion Strength",
+    "m_DefaultReferenceName": "_Occlusion_Strength",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 1,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
     }
 }
 
@@ -6025,10 +6059,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 270.28570556640627,
-            "y": 24.571426391601564,
-            "width": 134.28573608398438,
-            "height": 34.28571319580078
+            "x": -253.14285278320313,
+            "y": 39.42856979370117,
+            "width": 133.71432495117188,
+            "height": 34.28571701049805
         }
     },
     "m_Slots": [
@@ -6325,10 +6359,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 228.5714569091797,
-            "y": 113.71429443359375,
-            "width": 184.57142639160157,
-            "height": 253.14285278320313
+            "x": -294.8571472167969,
+            "y": 128.57144165039063,
+            "width": 184.57144165039063,
+            "height": 253.14288330078126
         }
     },
     "m_Slots": [
@@ -7261,6 +7295,12 @@
         },
         {
             "m_Id": "804df07f474a4d1cb5e72db683303bff"
+        },
+        {
+            "m_Id": "fed851639e684764a261bf7bc86de58d"
+        },
+        {
+            "m_Id": "6b9ae54c8ebb42f49ba355da0c5f9101"
         }
     ]
 }
@@ -7598,10 +7638,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 43.42854309082031,
-            "y": 124.57137298583985,
-            "width": 152.57138061523438,
-            "height": 34.285743713378909
+            "x": -480.0,
+            "y": 139.4285888671875,
+            "width": 152.57144165039063,
+            "height": 34.28570556640625
         }
     },
     "m_Slots": [
@@ -8629,5 +8669,33 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "fed851639e684764a261bf7bc86de58d",
+    "m_Guid": {
+        "m_GuidSerialized": "4897bc77-af52-4de5-9d7c-d339ee1a4375"
+    },
+    "m_Name": "Intersection Power",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Intersection Power",
+    "m_DefaultReferenceName": "_Intersection_Power",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.009999999776482582,
+    "m_FloatType": 1,
+    "m_RangeValues": {
+        "x": 0.009999999776482582,
+        "y": 25.0
+    }
 }
 

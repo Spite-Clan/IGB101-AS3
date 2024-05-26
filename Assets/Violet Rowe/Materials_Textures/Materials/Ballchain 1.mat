@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wave Material
-  m_Shader: {fileID: -6465566751694194690, guid: 258ffe9a86d8e9c4d8010812b9a0c64b, type: 3}
+  m_Name: Ballchain 1
+  m_Shader: {fileID: -6465566751694194690, guid: 04679d47e95201d42a8d2eb6b92dd9ad, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -31,29 +31,14 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Big_Wave_Power: 0.8
-    - _Big_Wave_Rotate_X: 1
-    - _Big_Wave_Rotate_Z: 1
-    - _Big_Wave_Scale: 0.3
-    - _Big_Wave_Speed: 0.6
-    - _Gradient_Scale: 0.2
-    - _Intersection_Power: 3.6
-    - _Medium_Wave_Power: 1
-    - _Medium_Wave_Rotate_X: 1
-    - _Medium_Wave_Rotate_Z: 1
-    - _Medium_Wave_Scale: 1
-    - _Medium_Wave_Speed: 1
-    - _Occlusion_Strength: 1
-    - _Small_Wave_Power: 0.3
-    - _Small_Wave_Rotate_X: 1
-    - _Small_Wave_Rotate_Z: 1
-    - _Small_Wave_Scale: 1
-    - _Small_Wave_Speed: 2
+    - _Intersection_Power: 0.01
+    - _Occlusion_Strength: 0
+    - _Offset: 0
     m_Colors:
-    - _Base_Color: {r: 0, g: 0.7817383, b: 1, a: 0}
-    - _Gradient_Speed: {r: 1, g: 1, b: 0, a: 0}
+    - _Base_Color: {r: 1, g: 0.5242587, b: 0.9673353, a: 0}
+    - _Second_Color: {r: 0.3377282, g: 0.8081003, b: 0.9528302, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &5412517724561906968
+--- !u!114 &4257492468393456687
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
