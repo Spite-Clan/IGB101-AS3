@@ -38,6 +38,7 @@ public class ThirdPersonCamera : MonoBehaviour {
 		currentDistance = distance;
 		desireDistance = distance;
 		correctedDistance = distance;
+		Cursor.lockState = CursorLockMode.Locked;
 	}
 	
 	// Update is called once per frame
