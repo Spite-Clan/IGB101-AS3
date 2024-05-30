@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Violet Rowe/Scenes/IGB101 A3 Vi R.unity
+    guid: 5a102b5e6868c5e489fe49364509b685
+  - enabled: 1
+    path: Assets/Denniel K/Scenes/Main_Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
