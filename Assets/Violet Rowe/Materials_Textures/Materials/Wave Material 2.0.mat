@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wave Material 2.0
+  m_Shader: {fileID: -6465566751694194690, guid: 8412f5b6333a3f247afcfde49fc3e2c8, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Base_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _Big_Wave_Power: 1
+    - _Big_Wave_Rotate_X: 1
+    - _Big_Wave_Rotate_Z: 1
+    - _Big_Wave_Scale: 0
+    - _Big_Wave_Speed: 0
+    - _Depth_Smple_Offset: 0.0224
+    - _Foam_Distance: 1.13
+    - _Foam_Scale: 500
+    - _Gradient_Scale: 0
+    - _Intersection_Power: 0.01
+    - _Occlusion_Strength: 0
+    - _Small_Wave_Power: 1
+    - _Small_Wave_Rotate_X: 1
+    - _Small_Wave_Rotate_Z: 1
+    - _Small_Wave_Scale: 1
+    - _Small_Wave_Speed: 2
+    m_Colors:
+    - _Base_Color: {r: 0, g: 0.69925165, b: 1, a: 0}
+    - _Foam_Color: {r: 0.71293795, g: 1, b: 0.8024024, a: 0}
+    - _Foam_Velocity: {r: 0.1, g: 0, b: 0, a: 0}
+    - _Gradient_Speed: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &5880227590742408417
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
