@@ -5,7 +5,7 @@ using UnityEngine;
 public class DanK_DoorUse : MonoBehaviour
 {
     GameManager gameManager;
-    public bool opening;
+    bool opening;
     // Start is called before the first frame update
     void Start()
     {
