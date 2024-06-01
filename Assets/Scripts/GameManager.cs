@@ -51,18 +51,13 @@ public class GameManager : MonoBehaviour
     {
         for (int index = 0; index < audioSources.Length; index++)
         {
-            /*
             if (Vector3.Distance(player.transform.position, audioSources[index].transform.position) <= audioProximity)
             {
-                if (audioSources != null)
+                if (!audioSources[index].isPlaying)
                 {
-                    if (!audioSources[index].isPlaying)
-                    {
-                        audioSources[index].Play();
-                    }
+                    audioSources[index].Play();
                 }
             }
-            */
         }
     }
 
