@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Denniel K/Scenes/Main_Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Denniel K/Scenes/Victory_Scene.unity
+    guid: 42d59e24f8360de41a42382d3fce622e
   m_configObjects: {}
