@@ -22280,7 +22280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 350011909}
   currentPickups: 0
-  maxPickups: 4
+  maxPickups: 5
   levelComplete: 0
   pickupText: {fileID: 1042352265}
   audioSources:
