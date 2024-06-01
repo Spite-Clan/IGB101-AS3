@@ -20,20 +20,6 @@ public class GameManager : MonoBehaviour
     public AudioSource[] audioSources;
     public float audioProximity = 5.0f;
 
-    // Close Game Event
-    public Button closeGame;
-
-    private void ButtonPressed()
-    {
-        if (closeGame != null)
-        {
-            if (closeGame.IsActive())
-            {
-                Application.Quit();
-            }
-        }
-    }
-
     private void LevelCompleteCheck()
     {
         if (currentPickups >= maxPickups)
@@ -73,6 +59,5 @@ public class GameManager : MonoBehaviour
         LevelCompleteCheck();
         UpdateGUI();
         PlayAudioSamples();
-        ButtonPressed();
     }
 }

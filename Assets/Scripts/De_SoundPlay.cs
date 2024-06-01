@@ -25,7 +25,7 @@ public class De_SoundPlay : MonoBehaviour
             if (gameManager.currentPickups == collectedItemsTrigger)
             {
                 effect.Play();
-                playing = true;
+                playing = true; 
             }
         }
     }
