@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Deepanshu/Scenes/IGB101 Assignment 1 Deepanshu.unity
+    guid: a3b2b8c3f0bec4842b845e98b967813c
+  - enabled: 1
     path: Assets/Violet Rowe/Scenes/IGB101 A3 Vi R.unity
     guid: 5a102b5e6868c5e489fe49364509b685
   - enabled: 1
